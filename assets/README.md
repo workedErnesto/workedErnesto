@@ -4,6 +4,6 @@ Self-contained animated terminal headers, project cards and local badges. The te
 
 Project cards have uniform 24px internal padding and carry architecture descriptions. Their layout does not depend on custom README styles, which GitHub removes.
 
-Each card exists as a `-light` and a `-dark` file. The README shows both with the `#gh-light-mode-only` and `#gh-dark-mode-only` fragments, so GitHub picks the one for the theme selected on the site. A `prefers-color-scheme` rule inside an image follows the operating system instead and gave light cards on the dark theme. The files carry a transparent right and bottom margin that sets the gap between the cards: first-row cards are 16 units apart horizontally and 8 units plus the line box below, so the gaps look equal.
+Each card exists as a `-light` and a `-dark` file. The README switches them with a `<picture>` element and `prefers-color-scheme`. The older `#gh-light-mode-only` and `#gh-dark-mode-only` fragments no longer work on GitHub: both images show at once. The files carry a transparent right and bottom margin that sets the gap between the cards: first-row cards are 16 units apart horizontally and 8 units plus the line box below, so the gaps look equal.
 
 Brand icons: [Simple Icons](https://github.com/simple-icons/simple-icons), CC0, and [Devicon](https://github.com/devicons/devicon), MIT. License texts are in `licenses`. Trademarks belong to their owners. Framework packages use their ecosystem icon; server, search, code and email symbols are custom line icons.
