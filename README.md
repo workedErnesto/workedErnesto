@@ -8,11 +8,21 @@
 <a href="https://github.com/workedErnesto"><img src="assets/badges/for-the-badge/github.svg" alt="GitHub"></a>
 </p>
 
-I'm Ernest Tryakin, a full-stack and mobile developer based in Ufa, Russia. My main stack is **Flutter, Dart and Swift**. I also build web apps, backends, bots and developer tools with **TypeScript, Python and C#**. I take products from interfaces and data models through infrastructure and releases.
+Ernest Tryakin, full-stack developer based in Ufa, Russia. I build apps for iOS, Android, macOS, Windows and the web with **Flutter, Dart and Swift**, and backends, integrations, bots and developer tools with **TypeScript, Python and C#**. I own a product end to end: from the data model and interface to infrastructure and store releases.
 
-## tech stack
+## Why me
 
-**languages**
+1. **The full cycle in one pair of hands:** data model, backend, client, infrastructure and release. At Bazik I'm the only full-stack developer, so decisions don't get lost between people and teams.
+2. **Depth, not just assembly from off-the-shelf parts:** a custom document editor, syntax highlighting, export, native bridges, a design system. When the ready-made option doesn't fit, I build my own.
+3. **One architecture, many platforms:** iOS, Android, macOS, Windows and the web on a shared core and shared client/server contracts.
+4. **Product, not only code:** I think about user scenarios, screen states and the path to release, and I cover the logic with tests.
+5. **Cleaning up AI slop:** I bring code to a deliberate architecture, strip the generic AI look from interfaces and deliver pixel-perfect design.
+6. **Skills for autonomous work:** I write custom skills so AI agents work independently and predictably.
+7. **Real releases:** Tvaity and Kerla are published in the stores, and Bazik was launched together with the company.
+
+## Tech stack
+
+**Languages**
 
 <p>
 <img src="assets/badges/for-the-badge/dart.svg" alt="Dart">
@@ -21,10 +31,9 @@ I'm Ernest Tryakin, a full-stack and mobile developer based in Ufa, Russia. My m
 <img src="assets/badges/for-the-badge/javascript.svg" alt="JavaScript">
 <img src="assets/badges/for-the-badge/python.svg" alt="Python">
 <img src="assets/badges/for-the-badge/csharp.svg" alt="C#">
-<img src="assets/badges/for-the-badge/cplusplus.svg" alt="C++">
 </p>
 
-**mobile & desktop**
+**UI frameworks**
 
 <p>
 <img src="assets/badges/for-the-badge/flutter.svg" alt="Flutter">
@@ -33,7 +42,7 @@ I'm Ernest Tryakin, a full-stack and mobile developer based in Ufa, Russia. My m
 <img src="assets/badges/for-the-badge/winui-3.svg" alt="WinUI 3">
 </p>
 
-**web & state**
+**Web interfaces and state management**
 
 <p>
 <img src="assets/badges/for-the-badge/react.svg" alt="React">
@@ -43,7 +52,7 @@ I'm Ernest Tryakin, a full-stack and mobile developer based in Ufa, Russia. My m
 <img src="assets/badges/for-the-badge/bloc-cubit.svg" alt="BLoC / Cubit">
 </p>
 
-**backend & APIs**
+**Backend & APIs**
 
 <p>
 <img src="assets/badges/for-the-badge/serverpod.svg" alt="Serverpod">
@@ -53,7 +62,7 @@ I'm Ernest Tryakin, a full-stack and mobile developer based in Ufa, Russia. My m
 <img src="assets/badges/for-the-badge/fastapi.svg" alt="FastAPI">
 </p>
 
-**databases & search**
+**Databases & search**
 
 <p>
 <img src="assets/badges/for-the-badge/postgresql.svg" alt="PostgreSQL">
@@ -63,7 +72,7 @@ I'm Ernest Tryakin, a full-stack and mobile developer based in Ufa, Russia. My m
 <img src="assets/badges/for-the-badge/redis.svg" alt="Redis">
 </p>
 
-**database tools**
+**Database tools**
 
 <p>
 <img src="assets/badges/for-the-badge/datagrip.svg" alt="DataGrip">
@@ -71,7 +80,7 @@ I'm Ernest Tryakin, a full-stack and mobile developer based in Ufa, Russia. My m
 <img src="assets/badges/for-the-badge/dbeaver.svg" alt="DBeaver">
 </p>
 
-**infrastructure & integrations**
+**Infrastructure & integrations**
 
 <p>
 <img src="assets/badges/for-the-badge/docker.svg" alt="Docker">
@@ -89,7 +98,7 @@ I'm Ernest Tryakin, a full-stack and mobile developer based in Ufa, Russia. My m
 <img src="assets/badges/for-the-badge/tool-calling.svg" alt="Tool calling">
 </p>
 
-**development tools**
+**Development tools**
 
 <p>
 <img src="assets/badges/for-the-badge/git.svg" alt="Git">
@@ -101,51 +110,44 @@ I'm Ernest Tryakin, a full-stack and mobile developer based in Ufa, Russia. My m
 <img src="assets/badges/for-the-badge/codex.svg" alt="Codex">
 </p>
 
-### architecture, integrations & releases
+### Architecture, integrations & releases
 
-**architecture:** Clean Architecture, MVVM, feature-based modules, DI, shared client/server contracts, platform bridges and FFI.<br>
-**data:** SQL, migrations, indexes, transactions, multi-tenancy, Prisma, Entity Framework Core, SQLAlchemy, Hive, SharedPreferences.<br>
-**integrations:** REST APIs, WebSocket, Dio, go_router, FCM, APNs, RuStore Push, S3, Yandex Object Storage, Telegram Bot API, Bitrix24.<br>
+**Architecture:** Clean Architecture, MVVM, feature-based modules, DI, shared client/server contracts, platform bridges and FFI.<br>
+**Data:** SQL, migrations, indexes, transactions, multi-tenancy, Prisma, Entity Framework Core, SQLAlchemy, Hive, SharedPreferences.<br>
+**Integrations:** REST APIs, WebSocket, Dio, go_router, FCM, APNs, RuStore Push, S3, Yandex Object Storage, Telegram Bot API, Bitrix24.<br>
 **AI:** RAG, embeddings, full-text and vector search, RRF, reranking, structured output, tool calling, computer vision and transcription.<br>
-**testing & delivery:** unit, widget and integration tests, XCTest, Vitest, pytest, code review, CI/CD, App Store, Google Play and RuStore.
+**Testing & delivery:** unit, widget and integration tests, XCTest, Vitest, pytest, code review, CI/CD, App Store, Google Play and RuStore.
 
-## how I build
+## Engineering approach
 
-I choose dependencies to fit the task and can replace them with custom implementations. In Bazik, I moved from a packaged editor to a custom document model, editing operations, undo/redo and separate Flutter and DOM views. In rotide.dm, I built the editor, syntax highlighting, document export and native bridges; in mica, a design system and browser shell over system engines.
+1. **Understand the task:** I work out what is needed and for whom, what the constraints are and what can be left out. I estimate scope and risk before writing the first line of code.
+2. **Design:** I describe the data model, module boundaries and the contracts between client and server. I draw a mockup and think through every screen state: empty, loading, error.
+3. **Build the foundation:** I start with an end-to-end scenario: data, server, client. Tokens and components live in one design system, so screens stay consistent.
+4. **Raise the quality:** I cover the logic with tests, check the interface across platforms and screen sizes, and go through code review.
+5. **Release and maintain:** I set up CI/CD, publish to the App Store, Google Play and RuStore, and keep improving the product after release.
 
-## open-source projects
+## Open-source projects
 
 <p>
-<a href="https://github.com/workedErnesto/rotide.dm"><img src="assets/rotide-en.svg" width="380" alt="rotide.dm: Markdown reader and editor for macOS and Windows. GitHub-style preview; HTML, PDF, Word and RTF export. 4 packages: pure Dart core, UI kit, native bridge and app. cmark-gfm via FFI; WKWebView / WebView2; Swift and C++ for platform integration."></a>
-<a href="https://github.com/workedErnesto/mica"><img src="assets/mica-en.svg" width="380" alt="mica: browser for macOS and Windows: tabs, local data, extensions, ad and tracker blocking. macOS: independent MicaCore and an AppKit / SwiftUI shell over WebKit. Windows: C# / .NET, WinUI 3 and WebView2. Shared tokens, strings and test fixtures."></a>
+<a href="https://github.com/workedErnesto/rotide.dm"><img src="assets/rotide-en-light.svg#gh-light-mode-only" width="393" alt="rotide.dm: Markdown reader and editor for macOS and Windows. GitHub-style preview; HTML, PDF, Word and RTF export. 4 packages: pure Dart core, UI kit, native bridge and app. cmark-gfm via FFI, built by a build hook. WKWebView on macOS, WebView2 on Windows."><img src="assets/rotide-en-dark.svg#gh-dark-mode-only" width="393" alt="rotide.dm: Markdown reader and editor for macOS and Windows. GitHub-style preview; HTML, PDF, Word and RTF export. 4 packages: pure Dart core, UI kit, native bridge and app. cmark-gfm via FFI, built by a build hook. WKWebView on macOS, WebView2 on Windows."></a><a href="https://github.com/workedErnesto/mica"><img src="assets/mica-en-light.svg#gh-light-mode-only" width="380" alt="mica: browser for macOS and Windows: tabs, local data, extensions, ad and tracker blocking. macOS: independent MicaCore and an AppKit / SwiftUI shell over WebKit. Windows: C# / .NET, WinUI 3 and WebView2. Shared tokens, strings and test fixtures."><img src="assets/mica-en-dark.svg#gh-dark-mode-only" width="380" alt="mica: browser for macOS and Windows: tabs, local data, extensions, ad and tracker blocking. macOS: independent MicaCore and an AppKit / SwiftUI shell over WebKit. Windows: C# / .NET, WinUI 3 and WebView2. Shared tokens, strings and test fixtures."></a><br>
+<a href="https://github.com/workedErnesto/coda"><img src="assets/coda-en-light.svg#gh-light-mode-only" width="773" alt="coda: an app for finding song lyrics and translating them into Russian. Clean Architecture: separate data/domain/presentation layers, repositories and use cases. BLoC/Cubit for state, GetIt for DI, Dio for networking and Hive for local data."><img src="assets/coda-en-dark.svg#gh-dark-mode-only" width="773" alt="coda: an app for finding song lyrics and translating them into Russian. Clean Architecture: separate data/domain/presentation layers, repositories and use cases. BLoC/Cubit for state, GetIt for DI, Dio for networking and Hive for local data."></a>
 </p>
 
-<p>
-<a href="https://github.com/workedErnesto/coda"><img src="assets/coda-en.svg" width="764" alt="coda: an app for finding song lyrics and translating them into Russian. Clean Architecture: separate data/domain/presentation layers, repositories and use cases. BLoC/Cubit for state, GetIt for DI, Dio for networking and Hive for local data."></a>
-</p>
-
-## commercial experience
+## Commercial experience
 
 ### [Idea Prazdnika](https://idea-prazdnika.ru/ufa/) / [Bazik](https://monaroza.online) — 1 year
 
-**Sole full-stack developer.** Launched Bazik together with the company: a system for tasks, internal documentation, org structure and workflow automation. I own the Flutter client, Serverpod backend, PostgreSQL, infrastructure and releases.
-
-1. **Custom document editor:** block and selection models, formatting operations, tables, format painter, clipboard handling, undo/redo, autosave and review history. Separate DOM input for the web and Flutter views for native platforms.
-2. **AI architecture:** a server runtime owns working state, a structured planner proposes actions, and a separate synthesis layer produces answers. Tools enforce permissions, confirmations where required and idempotency. RAG combines vector and full-text search through RRF with reranking.
-3. **Visual workflows:** a graph editor with automatic layout and undo/redo, versioned definitions, conditions, parallel branches, waits and HTTP actions. Execution uses transactions, locks and an outbox.
-4. **Product features:** tasks and recurrence, chats, blockers and awaited employee replies, personal digests and org-based permissions. Shared server logic for web, Telegram, MAX and Bitrix24; interchangeable S3 storage providers.
+**Sole full-stack developer:** launched Bazik together with the company, a work platform for tasks, internal documentation, org structure and workflow automation. It runs on the web, in native apps, in Telegram, MAX and Bitrix24. I'm responsible for the Flutter client, the Serverpod backend, PostgreSQL, infrastructure and releases.
 
 ### DartWay — 6 months
 
-**Flutter developer in a team.** Worked on Tvaity ([App Store](https://apps.apple.com/us/app/%D1%82%D0%B2%D0%B0%D0%B9%D1%82%D0%B8/id6759610338?l=en-US), [RuStore](https://www.rustore.ru/catalog/app/ru.tvaity.app)), U90 and [Kerla](https://play.google.com/store/apps/details?id=com.ru.kerla&hl=ru): an education platform, an AI coaching app and a classifieds marketplace. Built chats, feeds, a text formatting engine, video player, push notifications and admin panels. Owned the client, backend and AI features in U90; referrals, user migration and infrastructure in Kerla. Collaborated through pull requests and code review.
+**Flutter developer in a team:** developed Tvaity ([App Store](https://apps.apple.com/us/app/%D1%82%D0%B2%D0%B0%D0%B9%D1%82%D0%B8/id6759610338?l=en-US), [RuStore](https://www.rustore.ru/catalog/app/ru.tvaity.app)), U90 and [Kerla](https://play.google.com/store/apps/details?id=com.ru.kerla&hl=ru): an education platform, an AI coaching app and a classifieds marketplace. Built chats, feeds, a text formatting engine, video player, push notifications and admin panels. Owned the client, backend and AI features in U90; referrals, user migration and infrastructure in Kerla. Collaborated through pull requests and code review.
 
-## more projects
+## More projects
 
-| area | examples of my work |
-|---|---|
-| business integrations | MoySklad, Tochka SBP payments and Business.Ru: API and worker separated from the React UI, PostgreSQL/Prisma, webhooks, idempotent queues, tenant isolation and failure recovery |
+I build integrations with business systems: solutions for MoySklad and apps for Bitrix24, connections to Tochka SBP payments and Business.Ru. The API and worker run separately from the React interface, on PostgreSQL and Prisma, with webhooks and an idempotent queue. Accounts are isolated from each other, and work recovers on its own after failures.
 
 ---
 
 **Ufa, Russia / remote**<br>
-[Telegram @iWhoooa](https://t.me/iWhoooa) / [only.worked.ernesto@email.com](mailto:only.worked.ernesto@email.com).
+[Telegram @iWhoooa](https://t.me/iWhoooa) / [only.worked.ernesto@email.com](mailto:only.worked.ernesto@email.com)

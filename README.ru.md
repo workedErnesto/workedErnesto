@@ -8,11 +8,21 @@
 <a href="https://github.com/workedErnesto"><img src="assets/badges/for-the-badge/github.svg" alt="GitHub"></a>
 </p>
 
-Я Эрнест Трякин, full-stack и мобильный разработчик из Уфы. Основной стек — **Flutter, Dart и Swift**. Также пишу web-приложения, серверы, ботов и инструменты разработки на **TypeScript, Python и C#**. Веду продукт от интерфейса и модели данных до инфраструктуры и релиза.
+Эрнест Трякин, full-stack разработчик из Уфы. Делаю приложения для iOS, Android, macOS, Windows и web на **Flutter, Dart и Swift**, а серверы, интеграции, ботов и инструменты разработки на **TypeScript, Python и C#**. Отвечаю за продукт целиком: от модели данных и интерфейса до инфраструктуры и релиза в сторах.
 
-## стек
+## Почему я
 
-**языки**
+1. **Полный цикл в одних руках:** модель данных, сервер, клиент, инфраструктура и релиз. В Базике я единственный full-stack разработчик, поэтому решения не теряются на стыках между людьми и командами.
+2. **Глубина, а не только сборка из готового:** свой редактор документов, подсветка кода, экспорт, нативные мосты, дизайн-система. Если готовое не подходит, пишу своё.
+3. **Одна архитектура, много платформ:** iOS, Android, macOS, Windows и web на общем ядре и общих контрактах клиента и сервера.
+4. **Продукт, а не только код:** думаю о сценариях пользователя, состояниях экрана и пути до релиза, логику покрываю тестами.
+5. **Чищу проекты от нейрослопа:** привожу код к выверенной архитектуре, избавляю интерфейс от узнаваемого нейровида и довожу дизайн до pixel-perfect.
+6. **Скиллы для автономной работы:** пишу кастомные скиллы, с которыми AI-агенты работают самостоятельно и предсказуемо.
+7. **Реальные релизы:** ТВАЙТИ и КЕРЛА опубликованы в сторах, Базик запущен вместе с компанией.
+
+## Стек
+
+**Языки**
 
 <p>
 <img src="assets/badges/for-the-badge/dart.svg" alt="Dart">
@@ -21,10 +31,9 @@
 <img src="assets/badges/for-the-badge/javascript.svg" alt="JavaScript">
 <img src="assets/badges/for-the-badge/python.svg" alt="Python">
 <img src="assets/badges/for-the-badge/csharp.svg" alt="C#">
-<img src="assets/badges/for-the-badge/cplusplus.svg" alt="C++">
 </p>
 
-**мобильные и desktop-приложения**
+**UI-фреймворки**
 
 <p>
 <img src="assets/badges/for-the-badge/flutter.svg" alt="Flutter">
@@ -33,7 +42,7 @@
 <img src="assets/badges/for-the-badge/winui-3.svg" alt="WinUI 3">
 </p>
 
-**web и состояние**
+**Web-интерфейсы и управление состоянием**
 
 <p>
 <img src="assets/badges/for-the-badge/react.svg" alt="React">
@@ -43,7 +52,7 @@
 <img src="assets/badges/for-the-badge/bloc-cubit.svg" alt="BLoC / Cubit">
 </p>
 
-**backend и API**
+**Backend и API**
 
 <p>
 <img src="assets/badges/for-the-badge/serverpod.svg" alt="Serverpod">
@@ -53,7 +62,7 @@
 <img src="assets/badges/for-the-badge/fastapi.svg" alt="FastAPI">
 </p>
 
-**базы данных и поиск**
+**Базы данных и поиск**
 
 <p>
 <img src="assets/badges/for-the-badge/postgresql.svg" alt="PostgreSQL">
@@ -63,7 +72,7 @@
 <img src="assets/badges/for-the-badge/redis.svg" alt="Redis">
 </p>
 
-**работа с базами**
+**Работа с базами**
 
 <p>
 <img src="assets/badges/for-the-badge/datagrip.svg" alt="DataGrip">
@@ -71,7 +80,7 @@
 <img src="assets/badges/for-the-badge/dbeaver.svg" alt="DBeaver">
 </p>
 
-**инфраструктура и интеграции**
+**Инфраструктура и интеграции**
 
 <p>
 <img src="assets/badges/for-the-badge/docker.svg" alt="Docker">
@@ -89,7 +98,7 @@
 <img src="assets/badges/for-the-badge/tool-calling.svg" alt="Tool calling">
 </p>
 
-**инструменты разработки**
+**Инструменты разработки**
 
 <p>
 <img src="assets/badges/for-the-badge/git.svg" alt="Git">
@@ -101,51 +110,44 @@
 <img src="assets/badges/for-the-badge/codex.svg" alt="Codex">
 </p>
 
-### архитектура, интеграции и релизы
+### Архитектура, интеграции и релизы
 
-**архитектура:** Clean Architecture, MVVM, feature-based модули, DI, общие контракты клиента и сервера, платформенные мосты и FFI.<br>
-**данные:** SQL, миграции, индексы, транзакции, multi-tenancy, Prisma, Entity Framework Core, SQLAlchemy, Hive, SharedPreferences.<br>
-**интеграции:** REST API, WebSocket, Dio, go_router, FCM, APNs, RuStore Push, S3, Yandex Object Storage, Telegram Bot API, Bitrix24.<br>
+**Архитектура:** Clean Architecture, MVVM, feature-based модули, DI, общие контракты клиента и сервера, платформенные мосты и FFI.<br>
+**Данные:** SQL, миграции, индексы, транзакции, multi-tenancy, Prisma, Entity Framework Core, SQLAlchemy, Hive, SharedPreferences.<br>
+**Интеграции:** REST API, WebSocket, Dio, go_router, FCM, APNs, RuStore Push, S3, Yandex Object Storage, Telegram Bot API, Bitrix24.<br>
 **AI:** RAG, эмбеддинги, полнотекстовый и векторный поиск, RRF, реранкинг, structured output, tool calling, компьютерное зрение и транскрибация.<br>
-**проверка и выпуск:** unit-, widget- и интеграционные тесты, XCTest, Vitest, pytest, код-ревью, CI/CD, App Store, Google Play и RuStore.
+**Проверка и выпуск:** unit-, widget- и интеграционные тесты, XCTest, Vitest, pytest, код-ревью, CI/CD, App Store, Google Play и RuStore.
 
-## как я разрабатываю
+## Подход к разработке
 
-Выбираю зависимости по задаче и умею заменять их своими решениями. В Базике перешёл от пакетного редактора к собственной модели документа, операциям редактирования, undo/redo и отдельным представлениям для Flutter и DOM. В rotide.dm написал редактор, подсветку кода, экспорт документов и нативные мосты; в mica — свою дизайн-систему и оболочку браузера поверх системных движков.
+1. **Разбираю задачу:** выясняю, что и для кого нужно сделать, какие есть ограничения и что можно не делать. Оцениваю объём и риски до первой строки кода.
+2. **Проектирую:** описываю модель данных, границы модулей и контракты между клиентом и сервером. Рисую макет и продумываю все состояния экрана: пустое, загрузку, ошибку.
+3. **Собираю основу:** начинаю со сквозного сценария: данные, сервер, клиент. Токены и компоненты держу в одной дизайн-системе, чтобы экраны не расходились.
+4. **Довожу до качества:** покрываю логику тестами, проверяю интерфейс на разных платформах и размерах экрана, прохожу код-ревью.
+5. **Выпускаю и сопровождаю:** настраиваю CI/CD, публикую в App Store, Google Play и RuStore и дорабатываю продукт после релиза.
 
-## open-source проекты
+## Open-source проекты
 
 <p>
-<a href="https://github.com/workedErnesto/rotide.dm"><img src="assets/rotide-ru.svg" width="380" alt="rotide.dm: редактор и читалка Markdown для macOS и Windows. Предпросмотр GitHub, экспорт в HTML, PDF, Word и RTF. 4 пакета: чистое Dart-ядро, UI kit, нативный мост и приложение. cmark-gfm через FFI; WKWebView / WebView2; Swift и C++ для системных функций."></a>
-<a href="https://github.com/workedErnesto/mica"><img src="assets/mica-ru.svg" width="380" alt="mica: браузер для macOS и Windows: вкладки, локальные данные, расширения и блокировка рекламы и трекеров. macOS: независимое MicaCore и оболочка AppKit / SwiftUI поверх WebKit. Windows: C# / .NET, WinUI 3 и WebView2. Общие токены, строки и тестовые данные."></a>
+<a href="https://github.com/workedErnesto/rotide.dm"><img src="assets/rotide-ru-light.svg#gh-light-mode-only" width="393" alt="rotide.dm: редактор и читалка Markdown для macOS и Windows. Предпросмотр GitHub, экспорт в HTML, PDF, Word и RTF. 4 пакета: чистое Dart-ядро, UI kit, нативный мост и приложение. cmark-gfm через FFI, сборка build hook'ом. WKWebView на macOS, WebView2 на Windows."><img src="assets/rotide-ru-dark.svg#gh-dark-mode-only" width="393" alt="rotide.dm: редактор и читалка Markdown для macOS и Windows. Предпросмотр GitHub, экспорт в HTML, PDF, Word и RTF. 4 пакета: чистое Dart-ядро, UI kit, нативный мост и приложение. cmark-gfm через FFI, сборка build hook'ом. WKWebView на macOS, WebView2 на Windows."></a><a href="https://github.com/workedErnesto/mica"><img src="assets/mica-ru-light.svg#gh-light-mode-only" width="380" alt="mica: браузер для macOS и Windows: вкладки, локальные данные, расширения и блокировка рекламы и трекеров. macOS: независимое MicaCore и оболочка AppKit / SwiftUI поверх WebKit. Windows: C# / .NET, WinUI 3 и WebView2. Общие токены, строки и тестовые данные."><img src="assets/mica-ru-dark.svg#gh-dark-mode-only" width="380" alt="mica: браузер для macOS и Windows: вкладки, локальные данные, расширения и блокировка рекламы и трекеров. macOS: независимое MicaCore и оболочка AppKit / SwiftUI поверх WebKit. Windows: C# / .NET, WinUI 3 и WebView2. Общие токены, строки и тестовые данные."></a><br>
+<a href="https://github.com/workedErnesto/coda"><img src="assets/coda-ru-light.svg#gh-light-mode-only" width="773" alt="coda: приложение для поиска текстов песен и перевода на русский. Clean Architecture: раздельные data/domain/presentation, репозитории и use cases. BLoC/Cubit для состояния, GetIt для DI, Dio для сети и Hive для локальных данных."><img src="assets/coda-ru-dark.svg#gh-dark-mode-only" width="773" alt="coda: приложение для поиска текстов песен и перевода на русский. Clean Architecture: раздельные data/domain/presentation, репозитории и use cases. BLoC/Cubit для состояния, GetIt для DI, Dio для сети и Hive для локальных данных."></a>
 </p>
 
-<p>
-<a href="https://github.com/workedErnesto/coda"><img src="assets/coda-ru.svg" width="764" alt="coda: приложение для поиска текстов песен и перевода на русский. Clean Architecture: раздельные data/domain/presentation, репозитории и use cases. BLoC/Cubit для состояния, GetIt для DI, Dio для сети и Hive для локальных данных."></a>
-</p>
-
-## коммерческий опыт
+## Коммерческий опыт
 
 ### [Идея Праздника](https://idea-prazdnika.ru/ufa/) / [Базик](https://monaroza.online) — 1 год
 
-**Единственный full-stack разработчик.** Вместе с компанией запустил Базик — систему для задач, регламентов, оргструктуры и автоматизации работы. Веду Flutter-клиент, Serverpod-сервер, PostgreSQL, инфраструктуру и релизы.
-
-1. **Свой редактор документов:** модель блоков и выделения, операции форматирования, таблицы, format painter, буфер обмена, undo/redo, автосохранение и история согласования. Отдельный DOM-ввод для web и Flutter-представление для нативных платформ.
-2. **AI-архитектура:** серверный runtime хранит рабочее состояние, structured planner предлагает действия, отдельный synthesis формирует ответ. Инструменты проверяют права, требуют подтверждения нужных действий и защищены от повторного выполнения. RAG объединяет векторный и полнотекстовый поиск через RRF с реранкингом.
-3. **Визуальные бизнес-процессы:** редактор графа с автокомпоновкой и undo/redo, версии схем, условия, параллельные ветки, ожидания и HTTP-действия. Исполнение опирается на транзакции, блокировки и outbox.
-4. **Продуктовые сценарии:** задачи и повторения, чаты, блокеры и ожидание ответов сотрудников, персональные сводки, права по оргструктуре. Общая серверная логика для web, Telegram, MAX и Bitrix24; сменяемые провайдеры S3-хранилища.
+**Единственный full-stack разработчик:** вместе с компанией запустил Базик, рабочую платформу для задач, регламентов, оргструктуры и автоматизации процессов. Она работает в вебе, в нативных приложениях, в Telegram, MAX и Bitrix24. Отвечаю за Flutter-клиент, сервер на Serverpod, PostgreSQL, инфраструктуру и релизы.
 
 ### DartWay — 6 месяцев
 
-**Flutter-разработчик в команде.** Работал над Tvaity ([App Store](https://apps.apple.com/us/app/%D1%82%D0%B2%D0%B0%D0%B9%D1%82%D0%B8/id6759610338?l=en-US), [RuStore](https://www.rustore.ru/catalog/app/ru.tvaity.app)), U90 и [Kerla](https://play.google.com/store/apps/details?id=com.ru.kerla&hl=ru): образовательной платформой, AI-коучем и сервисом объявлений. Делал чаты, ленты, движок форматирования текста, видеоплеер, push-уведомления и админ-панели. В U90 вёл клиент, сервер и AI-часть; в Kerla — реферальную программу, миграцию пользователей и инфраструктуру. Работал через pull requests и код-ревью.
+**Flutter-разработчик в команде:** разрабатывал ТВАЙТИ ([App Store](https://apps.apple.com/us/app/%D1%82%D0%B2%D0%B0%D0%B9%D1%82%D0%B8/id6759610338?l=en-US), [RuStore](https://www.rustore.ru/catalog/app/ru.tvaity.app)), U90 и [КЕРЛА](https://play.google.com/store/apps/details?id=com.ru.kerla&hl=ru): образовательную платформу, AI-коуч и сервис объявлений. Реализовал чаты, ленты, движок форматирования текста, видеоплеер, push-уведомления и админ-панели. В U90 отвечал за клиент, сервер и AI-часть, в КЕРЛА за реферальную программу, миграцию пользователей и инфраструктуру. Работал через pull requests и код-ревью.
 
-## ещё проекты
+## Ещё проекты
 
-| направление | примеры моей работы |
-|---|---|
-| бизнес-интеграции | МойСклад, СБП банка Точка и Business.Ru: API и worker отдельно от React UI, PostgreSQL/Prisma, webhook, идемпотентная очередь, изоляция аккаунтов и восстановление после сбоев |
+Делаю интеграции в бизнес-системы: решения для МойСклад и приложения для Bitrix24, подключения к СБП банка Точка и Business.Ru. API и worker держу отдельно от React-интерфейса, на PostgreSQL и Prisma, с webhook и идемпотентной очередью. Аккаунты изолированы друг от друга, а после сбоев работа восстанавливается сама.
 
 ---
 
 **Уфа, Россия / удалённо**<br>
-[Telegram @iWhoooa](https://t.me/iWhoooa) / [only.worked.ernesto@email.com](mailto:only.worked.ernesto@email.com).
+[Telegram @iWhoooa](https://t.me/iWhoooa) / [only.worked.ernesto@email.com](mailto:only.worked.ernesto@email.com)
